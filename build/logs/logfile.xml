@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\week14\phpunit.dist.xml" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.112854">
+    <testsuite name="App" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.112854">
+      <testsuite name="App\Controllers\HomeTest" file="C:\xampp\htdocs\week14\tests\app\Controllers\HomeTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.102866">
+        <testcase name="testHomePage" file="C:\xampp\htdocs\week14\tests\app\Controllers\HomeTest.php" line="13" class="App\Controllers\HomeTest" classname="App.Controllers.HomeTest" assertions="1" time="0.102866"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\xampp\htdocs\week14\tests\unit\HealthTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.009988">
+        <testcase name="testIsDefinedAppPath" file="C:\xampp\htdocs\week14\tests\unit\HealthTest.php" line="12" class="HealthTest" classname="HealthTest" assertions="1" time="0.002734"/>
+        <testcase name="testBaseUrlHasBeenSet" file="C:\xampp\htdocs\week14\tests\unit\HealthTest.php" line="17" class="HealthTest" classname="HealthTest" assertions="1" time="0.007255"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
